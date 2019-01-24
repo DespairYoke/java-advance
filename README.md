@@ -57,3 +57,53 @@
 
 * 手写实现Mini版的MyBatis
 
+## 微服务架构专题
+
+### 微框架
+
+* 与微服务之间的关系
+
+* 热部署实战
+
+* 核心组件Starter、Actuator、AutoConfiguration、CLi
+
+* 集成MyBatis实现多数据源路由实战
+
+* 集成Dubbo实战
+
+* 集成Redis缓存实战
+
+* 集成Swagger2构建API管理及测试体系
+
+* 实现多环境配置动态解析
+
+### Spring Cloud
+
+* Eureka注册中心
+
+* Ribbon集成REST实现负载均衡
+
+* OpenFeigin声明式服务调用
+
+* HyStrilx服务熔断降级方式
+
+* Zuul实现微服务网关
+
+* Config分布式统一配置中心
+
+* Sleuth调用链路跟踪
+
+* Bus消息总线
+
+* 基于Hystrix实现接口降级实战
+
+* 集成Spring Cloud实现统一整合方案
+
+### Docker的虚拟化
+
+* Docker的镜像、仓库、容器
+
+* Docker File构建LNMP环境部署个人博客Wordpress
+
+* Docker Compose构建
+
