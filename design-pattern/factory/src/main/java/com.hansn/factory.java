@@ -13,6 +13,7 @@ public class factory {
         resaurant1.cook();
         System.out.println("-------------");
 
+        //简单工厂模式
         Resaurant resaurant2 = Wait.getMean(Wait.MEAN_DUCK);
         resaurant2.cook();
     }
