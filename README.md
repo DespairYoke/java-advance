@@ -25,9 +25,9 @@
 
 * [IOC容器设计原理及高级特性](./ioc.md)
 
-* AOP设计原理
+* [AOP设计原理](https://blog.csdn.net/luanlouis/article/details/51155821)
 
-* FactoryBean与BeanFactory
+* [FactoryBean与BeanFactory](https://github.com/DespairYoke/java-advance/blob/master/spring5/FactoryBeanAndBeanFactory/README.md)
 
 * Spring事务处理机制
 
