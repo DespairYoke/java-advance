@@ -4,7 +4,7 @@
 
 ### 常用设计模式
 
-* Proxy 代理模式
+* [Proxy 代理模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/proxy)
 
 * Factory 工程模式
 
