@@ -13,6 +13,7 @@ public class Leader implements Target {
         target.put("打印文件", new ATarget());
         target.put("测试项目", new BTarget());
     }
+    @Override
     public void dosomething(String commond) {
         target.get(commond).dosomething(commond);
     }

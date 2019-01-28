@@ -6,9 +6,9 @@ import com.hansn.serviceimpl.BuyHouseImpl;
 
 public class Hansn {
     public static void main(String[] args) {
-        System.out.println("aaaa");
         BuyHouse buyHouse = new BuyHouseImpl();
         buyHouse.buyHouse();
+        System.out.println("-----------");
         BuyHouseProxy buyHouseProxy = new BuyHouseProxy(buyHouse);
         buyHouseProxy.buyHouse();
     }
