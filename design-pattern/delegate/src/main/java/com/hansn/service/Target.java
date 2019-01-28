@@ -1,5 +1,6 @@
 package com.hansn.service;
 
 public interface Target {
-    public void dosomething(String commond);
+
+     void dosomething(String commond);
 }
