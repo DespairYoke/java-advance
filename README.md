@@ -10,7 +10,7 @@
 
 * SingLeton 单例模式
 
-* Delegate 委派模式
+* [Delegate 委派模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/delegate)
 
 * Strategy 策略模式
 
