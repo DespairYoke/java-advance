@@ -70,6 +70,7 @@ public class Factory {
 ```
 
 来看看执行结果
+
 ![image.png](https://upload-images.jianshu.io/upload_images/15533540-3ab3f9b916823700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 通过上面的例子就给大家简单介绍了一下简单工厂模式。但是工厂模式除了简单工厂模式还有工厂方法模式和抽象工厂模式，下面我再已餐馆这个例子给大家扩展一下工厂方法模式。工厂方法模式就是把简单工厂中具体的工厂类，划分成两层：抽象工厂层+具体的工厂子类层。
@@ -114,6 +115,7 @@ public class Cook {
 }
 ```
 看下执行结果
+
 ![image.png](https://upload-images.jianshu.io/upload_images/15533540-b15279d8f829d391.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 千呼万唤始出来，红烧鱼和烤鸭出锅咯！
