@@ -4,9 +4,9 @@ import java.util.List;
 
 public class MapperBean {
 
-    private String interfaceName;
+    private String interfaceName; //接口名
 
-    private List<Function> list;
+    private List<Function> list;  //接口下所有方法
 
     public String getInterfaceName() {
         return interfaceName;

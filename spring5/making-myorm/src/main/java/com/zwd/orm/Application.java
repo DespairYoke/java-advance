@@ -7,7 +7,7 @@ import com.zwd.orm.mapper.UserMapper;
 public class Application {
 
     public static void main(String[] args) {
-        MySqlsession sqlsession=new MySqlsession();
+        MySqlsession sqlsession=new MySqlsession("config.xml");
         UserMapper mapper = sqlsession.getMapper(UserMapper.class);
         User user = mapper.getUserById(1);
         System.out.println(user);

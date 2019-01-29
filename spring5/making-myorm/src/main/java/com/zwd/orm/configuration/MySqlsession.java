@@ -8,6 +8,13 @@ public class MySqlsession {
 
     private MyConfiguration myConfiguration = new MyConfiguration();
 
+    public MySqlsession(String configpath) {
+
+        myConfiguration.getAllMapper(configpath);
+    }
+
+
+
     public <T> T selectOne(String statement,Object parameter){
         return excutor.query(statement, parameter);
     }
