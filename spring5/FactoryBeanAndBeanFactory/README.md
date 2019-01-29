@@ -1,3 +1,5 @@
+## FactoryBeanAndBeanFactory?
+
 ## 一概述
 BeanFactory 与 FactoryBean的区别， 两个名字很像，面试中也经常遇到，所以容易搞混，现从源码以及示例两方面来分析。
 

@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>aop</module>
+        <module>FactoryBeanAndBeanFactory</module>
+        <module>spring-transaction</module>
     </modules>
 
 
