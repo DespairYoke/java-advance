@@ -15,6 +15,7 @@
         <module>aop</module>
         <module>FactoryBeanAndBeanFactory</module>
         <module>spring-transaction</module>
+        <module>making-myorm</module>
     </modules>
 
 
