@@ -6,7 +6,7 @@
 
 * [Proxy 代理模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/proxy)
 
-* Factory 工程模式
+* [Factory 工程模式](https://github.com/DespairYoke/java-advance/blob/master/design-pattern/factory/README.md)
 
 * SingLeton 单例模式
 
