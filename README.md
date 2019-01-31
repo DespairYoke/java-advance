@@ -33,7 +33,7 @@
 
 * [基于SpringJDBC手写ORM框架](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
-* SpringMVC九大组件
+* [SpringMVC九大组件](./spring5/springMVC-component.md)
 
 * 手写实现SpringMVC框架
 
