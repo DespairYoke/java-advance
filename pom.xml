@@ -10,6 +10,7 @@
     <modules>
         <module>design-pattern</module>
         <module>spring5</module>
+        <module>mybatis</module>
     </modules>
 
     <properties>

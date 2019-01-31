@@ -43,7 +43,7 @@
 
 ### myBatis
 
-* 代码自动生成器
+* [代码自动生成器](./mybatis/mybatis-generator/README.md)
 
 * Mybatis关联查询、嵌套查询
 
