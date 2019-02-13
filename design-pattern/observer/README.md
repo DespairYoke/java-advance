@@ -118,4 +118,5 @@ public class ObserverTest {
 ```
 
 执行结果如下：
+
 ![image.png](https://upload-images.jianshu.io/upload_images/15533540-cec57d1f7bca3ce7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
