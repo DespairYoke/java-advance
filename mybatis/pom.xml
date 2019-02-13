@@ -14,5 +14,6 @@
     <modules>
         <module>mybatis-generator</module>
         <module>mybatis-link-query</module>
+        <module>mybatis-cache</module>
     </modules>
 </project>
