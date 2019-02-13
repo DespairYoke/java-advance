@@ -13,7 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatis-generator</module>
+        <module>mybatis-link-query</module>
     </modules>
-
-
 </project>

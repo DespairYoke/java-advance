@@ -18,7 +18,7 @@
 
 * Template 模板模式
 
-* 观察者模式
+* Observer 观察者模式
 
 
 ### Spring5
