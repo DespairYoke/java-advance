@@ -18,7 +18,7 @@
 
 * Template 模板模式
 
-* 观察者模式
+* Observer 观察者模式
 
 
 ### Spring5
@@ -31,21 +31,21 @@
 
 * [Spring事务处理机制](https://github.com/DespairYoke/java-advance/blob/master/spring5/spring-transaction/README.md)
 
-* 基于SpringJDBC手写ORM框架
+* [基于SpringJDBC手写ORM框架](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
-* SpringMVC九大组件
+* [SpringMVC九大组件](./spring5/springMVC-component.md)
 
 * 手写实现SpringMVC框架
 
 * SpringMVC和Struts2对比分析
 
-* Spring5新特性
+* [Spring5新特性](./spring5/spring5-feature.md)
 
 ### myBatis
 
-* 代码自动生成器
+* [代码自动生成器](./mybatis/mybatis-generator/README.md)
 
-* Mybatis关联查询、嵌套查询
+* [Mybatis关联查询、嵌套查询](./mybatis/mybatis-link-query/README.md)
 
 * 缓存使用场景及选择策略
 
