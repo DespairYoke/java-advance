@@ -16,6 +16,8 @@
         <module>factory</module>
         <module>signle</module>
         <module>delegate</module>
+        <module>strategy</module>
+        <module>observer</module>
     </modules>
 
 </project>

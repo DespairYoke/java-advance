@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.java.advance</groupId>
-    <artifactId>proxy</artifactId>
+    <artifactId>observer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -24,5 +24,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
