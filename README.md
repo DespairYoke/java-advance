@@ -45,7 +45,7 @@
 
 * [代码自动生成器](./mybatis/mybatis-generator/README.md)
 
-* Mybatis关联查询、嵌套查询
+* [Mybatis关联查询、嵌套查询](./mybatis/mybatis-link-query/README.md)
 
 * 缓存使用场景及选择策略
 
