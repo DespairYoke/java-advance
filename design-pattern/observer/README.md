@@ -13,7 +13,7 @@
 
 ### 具体实现
 
-1.首先创建一个被观察者抽象接口,创建注册观察者，取消观察者和提醒所有观察者更新消息的方法，用途是用户订阅、取消订阅和接收消息。
+* 1.首先创建一个被观察者抽象接口,创建注册观察者，取消观察者和提醒所有观察者更新消息的方法，用途是用户订阅、取消订阅和接收消息。
 ```
 public interface Observable {
     //注册观察者
@@ -25,7 +25,7 @@ public interface Observable {
 }
 ```
 
-2.定义一个抽象观察者接口
+* 2.定义一个抽象观察者接口
 ```
 public interface Observer {
     void update(String message);
@@ -33,7 +33,7 @@ public interface Observer {
 }
 ```
 
-3.定义被观察者，实现了Observable接口，对Observable接口的三个方法进行了具体实现，同时有一个List集合，用以保存注册的观察者，等需要通知观察者时，遍历该集合即可。
+* 3.定义被观察者，实现了Observable接口，对Observable接口的三个方法进行了具体实现，同时有一个List集合，用以保存注册的观察者，等需要通知观察者时，遍历该集合即可。
 ```
 public class WeChatServer implements Observable{
 
@@ -71,7 +71,7 @@ public class WeChatServer implements Observable{
 }
 ```
 
-4.创建具体的观察者，这里具体的观察者也就是用户。
+* 4.创建具体的观察者，这里具体的观察者也就是用户。
 ```
 public class User implements Observer {
     private String name;
@@ -93,7 +93,7 @@ public class User implements Observer {
 }
 ```
 
-5.接下来就是具体的测试类，假设现在有三个用户订阅了公众号，公众号发布了一条信息是PHP是世界上最好的语言，此时java开发工程师李四接收到信息后颇为不满，于是果断取消订阅。后来公众号又发布了一条信息是：java是世界上最好的语言，此时取消订阅的李四已经接收不到这条信息了。
+* 5.接下来就是具体的测试类，假设现在有三个用户订阅了公众号，公众号发布了一条信息是PHP是世界上最好的语言，此时java开发工程师李四接收到信息后颇为不满，于是果断取消订阅。后来公众号又发布了一条信息是：java是世界上最好的语言，此时取消订阅的李四已经接收不到这条信息了。
 
 ```
 public class ObserverTest {
