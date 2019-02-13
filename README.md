@@ -18,7 +18,7 @@
 
 * Template 模板模式
 
-* [Observer 观察者模式](./design-pattern/)
+* [Observer 观察者模式](./design-pattern/observer/README.md)
 
 
 ### Spring5
