@@ -16,7 +16,7 @@
 
 * Prototype 原型模式
 
-* Template 模板模式
+* [Template 模板模式](./design-pattern/template/README.md)
 
 * [Observer 观察者模式](./design-pattern/observer/README.md)
 

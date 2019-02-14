@@ -18,6 +18,7 @@
         <module>delegate</module>
         <module>strategy</module>
         <module>observer</module>
+        <module>template</module>
     </modules>
 
 </project>
