@@ -15,5 +15,6 @@
         <module>mybatis-generator</module>
         <module>mybatis-link-query</module>
         <module>mybatis-cache</module>
+        <module>spring-mybatis</module>
     </modules>
 </project>

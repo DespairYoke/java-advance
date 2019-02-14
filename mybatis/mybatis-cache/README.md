@@ -91,5 +91,29 @@ call proc_initData();
 ```
 * 测试结果
 
-![test result](./image/linkquerytestresult.png)
+![test result](./image/cacheresult1.png)
 
+### 二级缓存
+
+* 配置文件applicaiton.properties加入mybatis缓存配置
+```properties
+mybatis.configuration.cache-enabled=true
+```
+* *Mapper.xml加入<cache>
+```xml
+  <cache></cache>
+```
+
+* 测试结果
+
+![test result](./image/cacheresult2.png)
+
+与上述结果对比，可以看出二级缓存比一级缓存速度要快了许多，也说明数据先到二级缓存中读取，如果没有再去一级缓存。
+
+### 缓存的使用场景
+
+通过上述描述，可见缓存用于查询较为平凡，增删改比较少的场景使用最为恰当。
+
+### 选择策略
+
+上述中有10000条数据，然而查询速度只有100ms一下，所以如果并发不高的情况下，建议使用一级缓存。
