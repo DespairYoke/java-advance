@@ -51,7 +51,7 @@
 
 * [Spring集成下的SqlSession与Mapper](./mybatis/spring-mybatis/README.md)
 
-* MyBatis的事务
+* [MyBatis的事务](./mybatis/mybatis-transaction-manager/README.md)
 
 * 分析MyBaits的事务
 

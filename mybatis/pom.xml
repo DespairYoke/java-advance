@@ -16,5 +16,6 @@
         <module>mybatis-link-query</module>
         <module>mybatis-cache</module>
         <module>spring-mybatis</module>
+        <module>mybatis-transaction-manager</module>
     </modules>
 </project>
