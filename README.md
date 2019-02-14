@@ -49,7 +49,7 @@
 
 * [缓存使用场景及选择策略](./mybatis/mybatis-cache/README.md)
 
-* Spring集成下的SqlSession与Mapper
+* [Spring集成下的SqlSession与Mapper](./mybatis/spring-mybatis/README.md)
 
 * MyBatis的事务
 

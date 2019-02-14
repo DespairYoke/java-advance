@@ -21,10 +21,8 @@
         <property name="mapperLocations" value="classpath:mapper/*.xml" />
     </bean>
 
-    <!-- MapperFactoryBean：根据mapper接口生成的代理对象 -->
-    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="com.zwd.mybatis.spring.mapper.UserMapper"/>
-        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
     </bean>
 
 </beans>
