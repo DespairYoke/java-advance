@@ -47,7 +47,7 @@
 
 * [Mybatis关联查询、嵌套查询](./mybatis/mybatis-link-query/README.md)
 
-* 缓存使用场景及选择策略
+* [缓存使用场景及选择策略](./mybatis/mybatis-cache/README.md)
 
 * Spring集成下的SqlSession与Mapper
 
