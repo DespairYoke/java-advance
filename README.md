@@ -20,7 +20,21 @@
 
 * [Observer 观察者模式](./design-pattern/observer/README.md)
 
+### 线程与并发
 
+* Thread和Runable的比较
+
+* 四大线程池简介
+
+* ThreadLocal简介
+
+* 线程运行状态图简介
+
+* join,wait,sleep,yield使用
+
+* 锁的使用
+
+* 深度理解synchronized、volatile、cas
 ### Spring5
 
 * [IOC容器设计原理及高级特性](./ioc.md)
