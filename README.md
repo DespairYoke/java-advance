@@ -12,7 +12,7 @@
 
 * [Delegate 委派模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/delegate)
 
-* Strategy 策略模式
+* [Strategy 策略模式](./design-pattern/strategy/README.md)
 
 * Prototype 原型模式
 
