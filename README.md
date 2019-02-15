@@ -67,7 +67,7 @@
 
 * [spring下MyBatis的事务](./mybatis/mybatis-transaction-manager/README.md)
 
-* 分析MyBaits的事务
+* [分析MyBaits的事务](./mybatis/mybatis-transaction-analysis/README.md)
 
 * 分析MyBatis的动态代理的真正实现
 
