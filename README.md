@@ -69,9 +69,9 @@
 
 * [分析MyBaits的事务](./mybatis/mybatis-transaction-analysis/README.md)
 
-* 分析MyBatis的动态代理的真正实现
+* [分析MyBatis的动态代理的真正实现](./mybatis/mybatis-proxy/README.md)
 
-* 手写实现Mini版的MyBatis
+* [手写实现Mini版的MyBatis](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
 ## 微服务架构专题
 
