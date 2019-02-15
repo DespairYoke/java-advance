@@ -65,13 +65,13 @@
 
 * [Spring集成下的SqlSession与Mapper](./mybatis/spring-mybatis/README.md)
 
-* [MyBatis的事务](./mybatis/mybatis-transaction-manager/README.md)
+* [spring下MyBatis的事务](./mybatis/mybatis-transaction-manager/README.md)
 
-* 分析MyBaits的事务
+* [分析MyBaits的事务](./mybatis/mybatis-transaction-analysis/README.md)
 
-* 分析MyBatis的动态代理的真正实现
+* [分析MyBatis的动态代理的真正实现](./mybatis/mybatis-proxy/README.md)
 
-* 手写实现Mini版的MyBatis
+* [手写实现Mini版的MyBatis](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
 ## 微服务架构专题
 

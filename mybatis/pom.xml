@@ -17,5 +17,7 @@
         <module>mybatis-cache</module>
         <module>spring-mybatis</module>
         <module>mybatis-transaction-manager</module>
+        <module>mybatis-transaction-analysis</module>
+        <module>mybatis-proxy</module>
     </modules>
 </project>
