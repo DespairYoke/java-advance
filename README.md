@@ -129,14 +129,20 @@
 
 * Kubernates简介
 
-### 漫谈微服务架构
+## 面试题总结
 
-* SOA架构和微服务架构之间的区别和联系
+* hashmap结构；什么对象能做为key
 
-* 如何设计微服务及其设计原则
+* hashtable,concurrentHashMap,hashtable比较
 
-* 解惑Spring Boot流行因素及能够解决什么问题
+* String,StringBuilder,StringBuffer
 
-* 什么是Spring cloud, 为何要选择Spring CLoud
+* wait,sleep分别是谁的方法，区别
+  
+
+
+* 对象的深浅复制
+
+* 分布式系统如何负载均衡？如何确定访问的资源在哪个服务器上？
 
 
