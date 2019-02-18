@@ -14,7 +14,7 @@
 
 * [Strategy 策略模式](./design-pattern/strategy/README.md)
 
-* Prototype 原型模式
+* [Prototype 原型模式](./design-pattern/prototype/README.md)
 
 * [Template 模板模式](./design-pattern/template/README.md)
 
