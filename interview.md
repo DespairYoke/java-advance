@@ -122,4 +122,40 @@ java8之后放弃了segment,采用`数组+链表+红黑树`的形式。
         // ...
     }
     
-#### 反射的原理，反射创建类实例的三种方式是什么。
+#### 反射创建类实例的三种方式是什么。
+
+    Class<?> mClass = ClassTest1.newInstance().getClass();
+    Class<?> mClass = ClassTest1.class;
+    mClass = Class.forName("com.xingen.classdemo.ClassTest1");
+    
+#### 反射中，Class.forName和ClassLoader区别 。
+
+    java中class.forName()和classLoader都可用来对类进行加载。
+    class.forName()前者除了将类的.class文件加载到jvm中之外，还会对类进行解释，执行类中的static块。
+
+#### 描述动态代理的几种实现方式，分别说出相应的优缺点。
+
+    jdk动态代理和cglib
+    使用JDK动态代理，目标类必须实现的某个接口，如果某个类没有实现接口则不能生成代理对象。
+    Cglib原理是针对目标类生成一个子类，覆盖其中的所有方法，所以目标类和方法不能声明为final类型。
+    从执行效率上看，Cglib动态代理效率较高。
+
+#### 深拷贝和浅拷贝区别。
+
+    浅拷贝：对基本数据类型进行值传递，对引用数据类型进行引用传递般的拷贝，此为浅拷贝。
+     
+        public Object clone() {
+            return super.clone();
+        }
+    深拷贝：对基本数据类型进行值传递，对引用数据类型，创建一个新的对象，并复制其内容，此为深拷贝。
+    
+        public Object clone() {
+            FatherClass cloneFacther = (FatherClass) super.clone();
+            cloneFacther.child = (ChildClass) this.child.clone();
+            return cloneFacther;
+        }
+
+#### error和exception的区别
+    Exception（异常）是应用程序中可能的可预测、可恢复问题
+    Error类一般是指与虚拟机相关的问题，如系统崩溃，虚拟机错误，内存空间不足，方法调用栈溢等。
+    对于这类错误的导致的应用程序中断，仅靠程序本身无法恢复和预防
