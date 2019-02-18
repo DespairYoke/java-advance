@@ -97,7 +97,9 @@ public static void main(String[] args) {
 ![image.png](https://upload-images.jianshu.io/upload_images/15533540-94b6c36cef62a453.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 总结
-优点： 1、性能提高。 2、逃避构造函数的约束。
+优点： 1、性能提高。 
+
+2、逃避构造函数的约束。
 
 缺点： 1、配备克隆方法需要对类的功能进行通盘考虑，这对于全新的类不是很难，但对于已有的类不一定很容易，特别当一个类引用不支持串行化的间接对象，或者引用含有循环结构的时候。
  2、必须实现 Cloneable 接口。
