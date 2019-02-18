@@ -6,4 +6,8 @@ public class DelegateTest {
     public static void main(String[] args) {
         new Leader().dosomething("打印文件");
     }
+
+
+
+
 }

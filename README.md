@@ -6,7 +6,7 @@
 
 * [Proxy 代理模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/proxy)
 
-* [Factory 工程模式](https://github.com/DespairYoke/java-advance/blob/master/design-pattern/factory/README.md)
+* [Factory 工厂模式](https://github.com/DespairYoke/java-advance/blob/master/design-pattern/factory/README.md)
 
 * [SingLeton 单例模式](./design-pattern/signle/README.md)
 
@@ -39,7 +39,7 @@
 
 * [IOC容器设计原理及高级特性](./ioc.md)
 
-* [AOP设计原理](https://blog.csdn.net/luanlouis/article/details/51155821)
+* [AOP设计原理](./spring5/aop/README.md)
 
 * [FactoryBean与BeanFactory](https://github.com/DespairYoke/java-advance/blob/master/spring5/FactoryBeanAndBeanFactory/README.md)
 
@@ -72,6 +72,8 @@
 * [分析MyBatis的动态代理的真正实现](./mybatis/mybatis-proxy/README.md)
 
 * [手写实现Mini版的MyBatis](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
+
+## JVM
 
 ## 微服务架构专题
 
