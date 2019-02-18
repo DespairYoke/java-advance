@@ -8,7 +8,7 @@
 
 * [Factory 工程模式](https://github.com/DespairYoke/java-advance/blob/master/design-pattern/factory/README.md)
 
-* SingLeton 单例模式
+* [SingLeton 单例模式](./design-pattern/signle/README.md)
 
 * [Delegate 委派模式](https://github.com/DespairYoke/java-advance/tree/master/design-pattern/delegate)
 
