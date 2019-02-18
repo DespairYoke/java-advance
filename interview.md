@@ -1,9 +1,9 @@
 ### 面试题
 #### hashmap结构；什么对象能做为key
-不可变对象。
-因为：HashMap用Key的哈希值来存储和查找键值对。当插入一个Entry时，HashMap会计算Entry Key的哈希值。Map会根据这个哈希值把Entry插入到相应的位置。
-
-查找时，HashMap通过计算Key的哈希值到特定位置查找这个Entry。而可变对象可能会是hash值发生改变。
+    不可变对象。
+    因为：HashMap用Key的哈希值来存储和查找键值对。当插入一个Entry时，HashMap会计算Entry Key的哈希值。Map会根据这个哈希值把Entry插入到相应的位置。
+    
+    查找时，HashMap通过计算Key的哈希值到特定位置查找这个Entry。而可变对象可能会是hash值发生改变。
 
 #### hashtable,concurrentHashMap,hashtable比较
 
@@ -59,12 +59,60 @@ java8之后放弃了segment,采用`数组+链表+红黑树`的形式。
 
 #### String类能被继承吗，为什么。
 
-不能，为了String类被final关键字修饰。
+    不能，为了String类被final关键字修饰。
 
 #### String，Stringbuffer，StringBuilder的区别。
 
-* String：字符串常量，字符串长度不可变。每次重新赋值时，会生成新的对象。不适合使用于频繁修改场景。
+    * String：字符串常量，字符串长度不可变。每次重新赋值时，会生成新的对象。不适合使用于频繁修改场景。
+    
+    * StringBuffer 字符串变量（线程安全）。如果要频繁对字符串内容进行修改且考虑安全，最好使用StringBuffer。
+    
+    * StringBuilder 字符串变量（非线程安全）。如果要频繁对字符串内容进行修改且考虑效率问题，最好使用StringBuilder。
 
-* StringBuffer 字符串变量（线程安全）。如果要频繁对字符串内容进行修改且考虑安全，最好使用StringBuffer。
+#### 讲讲类的实例化顺序，比如父类静态数据，构造函数，字段，子类静态数据，构造函数，字段，当new的时候，他们的执行顺序。
 
-* StringBuilder 字符串变量（非线程安全）。如果要频繁对字符串内容进行修改且考虑效率问题，最好使用StringBuilder。
+     父类静态代码块===》子类静态代码块===》父类构造方法====》子类构造方法
+
+#### 有没有有顺序的Map实现类，如果有，他们是怎么保证有序的。
+
+    JAVA在JDK1.4以后提供了LinkedHashMap来帮助我们实现了有序的HashMap！
+    LinkedHashMap取键值对时，是按照你放入的顺序来取的。
+
+#### 类可以继承多个类么，接口可以继承多个接口么,类可以实现多个接口么。
+
+    类是单继承，多实现。接口不能实现，只能多继承。
+
+#### 继承、依赖、关联、聚合的区别在哪
+
+    继承是把父类的的公共方法和参数拿到子类中使用，可重写父类方法，也可不重写，直接使用。
+
+    依赖是一种使用关系。如
+    public class Pen {
+        public void write(){
+            System.out.println("use pen to write");
+        }
+    }
+    
+    public class Me {
+        public void write(Pen pen){//这里，pen作为Me类方法的参数
+            pen.write();
+        }
+    }
+    关联是一种结构关系，说明一个事物的对象与另一个事物的对象相联系。如
+    public class You {
+        private Pen pen; // 让pen成为you的类属性 
+    
+        public You(Pen p){
+            this.pen = p;
+        }
+    
+        public void write(){
+            pen.write();
+        }
+    }
+    聚合是关联的一种特例，把整个类的集合拿过来使用。如
+    public class Family {
+        private List<Child> children; //一个家庭里有许多孩子
+    
+        // ...
+    }
