@@ -97,7 +97,7 @@
 
 ### Spring Cloud
 
-* Eureka注册中心
+* [Eureka注册中心](./spring-cloud/eureka.md)
 
 * Ribbon集成REST实现负载均衡
 

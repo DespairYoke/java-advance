@@ -1,0 +1,73 @@
+version: "3"
+
+services:
+  eureka-server:
+     image: 239206511/eureka-server:v1.0.0
+     restart: always
+     container_name: eureka-server
+     hostname: eureka-server
+     ports:
+       - "8090:8090"
+     deploy:
+       mode: replicated
+       replicas: 4
+     networks:
+       - swarm-example
+
+  config-server:
+     image: 239206511/config-server:v1.0.0
+     restart: always
+     container_name: config-server
+     hostname: config-server
+     ports:
+        - "8082:8082"
+     depends_on:
+        - eureka-server
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+     networks:
+       - swarm-example
+
+  sign-online-gateway:
+     image: 239206511/zuul-gateway:v1.0.0
+     restart: always
+     container_name: zuul-gateway
+     hostname: zuul-gateway
+     ports:
+       - "8083:8083"
+     depends_on:
+       - eureka-server
+     networks:
+       - swarm-example
+
+  client-server1:
+     image: 239206511/client-server1:v1.0.0
+     restart: always
+     container_name: client-server1
+     hostname: client-server1
+     ports:
+       - "8081:8081"
+     depends_on:
+       - eureka-server
+       - config-server
+     networks:
+       - swarm-example
+
+  client-server2:
+     image: 239206511/client-server2:v1.0.0
+     restart: always
+     container_name: client-server2
+     hostname: client-server2
+     ports:
+       - "8084:8084"
+     depends_on:
+       - eureka-server
+       - config-server
+     networks:
+       - swarm-example
+
+networks:
+  swarm-example:
+    driver: overlay

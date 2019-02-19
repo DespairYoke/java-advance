@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: zuul-gateway
+server:
+  port: 8083
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8090/eureka/
+#zuul:
+#  ignored-services: '*'
+
