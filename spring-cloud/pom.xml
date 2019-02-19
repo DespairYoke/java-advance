@@ -16,6 +16,8 @@
         <module>spring-cloud-clientA</module>
         <module>spring-cloud-clientB</module>
         <module>spring-cloud-ribbon</module>
+        <module>spring-cloud-zuul</module>
+        <module>spring-cloud-gateway</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
