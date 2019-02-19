@@ -99,7 +99,7 @@
 
 * [Eureka注册中心](./spring-cloud/eureka.md)
 
-* Ribbon集成REST实现负载均衡
+* [Ribbon集成REST实现负载均衡](./spring-cloud/ribbon.md)
 
 * OpenFeigin声明式服务调用
 

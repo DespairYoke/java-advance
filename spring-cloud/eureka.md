@@ -59,7 +59,8 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 可以看到注册信息中有我们注册的服务信息。
 
-    服务可以多次注册，只需修改服务的端口号即可。下面修改server.port=8011,再启动项目，会注册两个eureka-client-a用于后期负载均衡使用。
+    服务可以多次注册，只需修改服务的端口号即可。下面修改server.port=8011,再启动项目，会注册两个
+    eureka-client-a用于后期负载均衡使用。
 
 - 同样原理我们注册一个服务B，运行[spring-cloud-clientB](./spring-cloud-clientB)    
 
