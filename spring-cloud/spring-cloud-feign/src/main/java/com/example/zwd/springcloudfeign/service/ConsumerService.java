@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient("eureka-client-a")
+@FeignClient(value = "eureka-client-a")
 public interface ConsumerService {
 
     @GetMapping(value = "hello/{name}")

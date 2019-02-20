@@ -103,7 +103,7 @@
 
 * [OpenFeign声明式服务调用](./spring-cloud/feign.md)
 
-* HyStrilx服务熔断降级方式
+* [HyStrilx服务熔断降级方式](./spring-cloud/hystrix.md)
 
 * [Zuul2.0实现微服务网关](./spring-cloud/zuul.md)
 
@@ -143,7 +143,7 @@
 
 * wait,sleep分别是谁的方法，区别
   
-
+[答案及更多](./interview.md)
 
 * 对象的深浅复制
 
