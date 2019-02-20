@@ -18,6 +18,12 @@ Feign也支持可插拔的编码器和解码器。Spring Cloud为Feign增加了�
     <artifactId>spring-cloud-starter-openfeign</artifactId>
 </dependency>
 ```
+- application.properties配置
+```properties
+spring.application.name=spring-cloud-feign
+server.port=8004
+eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
+```
 - 启动类案例
 ```java
 @EnableEurekaClient

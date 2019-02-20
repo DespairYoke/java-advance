@@ -105,9 +105,9 @@
 
 * HyStrilx服务熔断降级方式
 
-* Zuul2.0实现微服务网关
+* [Zuul2.0实现微服务网关](./spring-cloud/zuul.md)
 
-* Gateway实现微服务网关
+* [Spring Cloud Gateway实现微服务网关](./spring-cloud/gateway.md)
 
 * Config分布式统一配置中心
 
