@@ -95,17 +95,19 @@
 
 * 实现多环境配置动态解析
 
-### Spring Cloud
+### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 
 * [Eureka注册中心](./spring-cloud/eureka.md)
 
 * [Ribbon集成REST实现负载均衡](./spring-cloud/ribbon.md)
 
-* OpenFeigin声明式服务调用
+* [OpenFeign声明式服务调用](./spring-cloud/feign.md)
 
 * HyStrilx服务熔断降级方式
 
-* Zuul实现微服务网关
+* Zuul2.0实现微服务网关
+
+* Gateway实现微服务网关
 
 * Config分布式统一配置中心
 

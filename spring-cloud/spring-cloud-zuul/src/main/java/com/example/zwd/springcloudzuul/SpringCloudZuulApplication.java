@@ -1,17 +1,17 @@
-package com.example.zwd.springcloudfeign;
+package com.example.zwd.springcloudzuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @EnableEurekaClient
-@EnableFeignClients
 @SpringBootApplication
-public class SpringCloudFeignApplication {
+@EnableZuulProxy
+public class SpringCloudZuulApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudFeignApplication.class, args);
+		SpringApplication.run(SpringCloudZuulApplication.class, args);
 	}
 
 }
