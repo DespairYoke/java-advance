@@ -22,6 +22,9 @@
         <module>spring-cloud-hystrix</module>
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-config-client</module>
+        <module>spring-cloud-sleuth-server</module>
+        <module>spring-cloud-sleuth-clientA</module>
+        <module>spring-cloud-sleuth-clientB</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

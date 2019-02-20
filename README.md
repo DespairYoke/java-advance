@@ -109,7 +109,7 @@
 
 * [Spring Cloud Gateway实现微服务网关](./spring-cloud/gateway.md)
 
-* Config分布式统一配置中心
+* [Config分布式统一配置中心](./spring-cloud/config.md)
 
 * Sleuth调用链路跟踪
 
@@ -142,11 +142,11 @@
 * String,StringBuilder,StringBuffer
 
 * wait,sleep分别是谁的方法，区别
-  
-[答案及更多](./interview.md)
-
+ 
 * 对象的深浅复制
 
 * 分布式系统如何负载均衡？如何确定访问的资源在哪个服务器上？
+
+[答案及更多](./interview.md)
 
 
