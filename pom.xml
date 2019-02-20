@@ -12,6 +12,7 @@
         <module>spring5</module>
         <module>mybatis</module>
         <module>thread</module>
+        <module>spring-cloud</module>
     </modules>
 
     <properties>

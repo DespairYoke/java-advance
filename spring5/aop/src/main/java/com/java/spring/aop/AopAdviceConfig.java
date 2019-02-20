@@ -13,7 +13,7 @@
 //@Aspect
 //public class AopAdviceConfig {
 //
-//    @Before("execution(* com.java.spring.aop.service..*.*(..))")
+//    @Before("execution(* com.java.spring.aop.controller..*.*(..))")
 //    public void beforeAdvice(JoinPoint joinPoint) {
 //        System.out.println(joinPoint.getThis());
 //        System.out.println("我是前置通知....");
