@@ -3,6 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://github.com/DespairYoke/java-advance
+          search-paths: spring-cloud/config-repo
+          username: despairyoke
+          password: a810095178
 server:
   port: 8888
