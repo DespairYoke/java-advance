@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableConfigServer
-@RefreshScope
 @EnableEurekaClient
 public class SpringCloudBusApplication {
 
