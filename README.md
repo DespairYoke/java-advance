@@ -115,9 +115,6 @@
 
 * [Bus消息总线](./spring-cloud/bus.md)
 
-* 基于Hystrix实现接口降级实战
-
-* 集成Spring Cloud实现统一整合方案
 
 ### Docker的虚拟化
 
