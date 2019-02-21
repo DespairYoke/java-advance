@@ -113,7 +113,7 @@
 
 * [Sleuth调用链路跟踪](./spring-cloud/sleuth.md)
 
-* Bus消息总线
+* [Bus消息总线](./spring-cloud/bus.md)
 
 * 基于Hystrix实现接口降级实战
 
