@@ -138,4 +138,9 @@ http://localhost:8112/actuator/bus-refresh ，而且请求一定要是`post`请�
 ```java
 Hello World!foo version 44
 ```
+### 项目架构
+
+![项目架构](./image/bus-archtive.png)
+
+
 总结： 可见服务通过消息总线实现不重启更新配置文件，并且通知其他相关服务更新配置。
