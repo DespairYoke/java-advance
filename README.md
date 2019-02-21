@@ -111,7 +111,7 @@
 
 * [Config分布式统一配置中心](./spring-cloud/config.md)
 
-* Sleuth调用链路跟踪
+* [Sleuth调用链路跟踪](./spring-cloud/sleuth.md)
 
 * Bus消息总线
 

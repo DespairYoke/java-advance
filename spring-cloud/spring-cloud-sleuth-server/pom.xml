@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.example.zwd</groupId>
-	<artifactId>spring-cloud-sleuth</artifactId>
+	<artifactId>spring-cloud-sleuth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-sleuth</name>
+	<name>spring-cloud-sleuth-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
