@@ -77,23 +77,21 @@
 
 ## 微服务架构专题
 
-### 微框架
+### 微框架(base on springboot2.1.3)
 
-* 与微服务之间的关系
+* springboot与微服务之间的关系
 
-* 热部署实战
+* springboot热部署实战
 
-* 核心组件Starter、Actuator、AutoConfiguration、CLi
+* springboot核心组件Starter、Actuator、AutoConfiguration、CLi
 
-* 集成MyBatis实现多数据源路由实战
+* springboot集成MyBatis实现多数据源路由实战
 
-* 集成Dubbo实战
+* springboot集成Redis缓存实战
 
-* 集成Redis缓存实战
+* springboot集成Swagger2构建API管理及测试体系
 
-* 集成Swagger2构建API管理及测试体系
-
-* 实现多环境配置动态解析
+* springboot实现多环境配置动态解析
 
 ### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 
