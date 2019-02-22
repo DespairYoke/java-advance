@@ -101,6 +101,8 @@
 
 * [Ribbon集成REST实现负载均衡](./spring-cloud/ribbon.md)
 
+* [Ribbon核心源码分析](./spring-cloud/ribbon_core.md)
+
 * [OpenFeign声明式服务调用](./spring-cloud/feign.md)
 
 * [HyStrilx服务熔断降级方式](./spring-cloud/hystrix.md)
