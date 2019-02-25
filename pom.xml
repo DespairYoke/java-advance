@@ -13,6 +13,7 @@
         <module>mybatis</module>
         <module>thread</module>
         <module>spring-cloud</module>
+        <module>spring-boot</module>
     </modules>
 
     <properties>

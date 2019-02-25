@@ -81,7 +81,7 @@
 
 * springboot与微服务之间的关系
 
-* springboot热部署实战
+* [springboot热部署实战](./spring-boot/hot.md)
 
 * springboot核心组件Starter、Actuator、AutoConfiguration、CLi
 
