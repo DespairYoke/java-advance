@@ -85,7 +85,7 @@
 
 * springboot核心组件[Starter](./spring-boot/starter.md)、Actuator、AutoConfiguration、CLi
 
-* springboot集成MyBatis实现多数据源路由实战
+* [springboot集成MyBatis实现多数据源路由实战](./spring-boot/mulidatasource.md)
 
 * springboot集成Redis缓存实战
 

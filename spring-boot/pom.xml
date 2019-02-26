@@ -16,6 +16,7 @@
         <module>spring-boot-hot</module>
         <module>example-spring-boot-starter</module>
         <module>example-spring-boot-starter-test</module>
+        <module>spring-boot-mybatis-mulidatasource</module>
     </modules>
     <dependencyManagement>
         <dependencies>
