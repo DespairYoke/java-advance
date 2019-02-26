@@ -83,7 +83,7 @@
 
 * [springboot热部署实战](./spring-boot/hot.md)
 
-* springboot核心组件Starter、Actuator、AutoConfiguration、CLi
+* springboot核心组件[Starter](./spring-boot/starter.md)、Actuator、AutoConfiguration、CLi
 
 * springboot集成MyBatis实现多数据源路由实战
 
