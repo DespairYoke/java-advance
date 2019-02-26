@@ -99,3 +99,5 @@ public class DataSource1Config {
 - 如何使用
 
 从项目目录可以看出mapper分为test1,test2,这是连接两个不同的数据库，当我们想要操作时，只需要选择不同包下的mapper。
+
+[项目地址](./spring-boot-mybatis-mulidatasource)
