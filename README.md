@@ -89,7 +89,7 @@
 
 * [springboot集成Swagger2构建API管理及测试体系](./spring-boot/swagger.md)
 
-* springboot实现多环境配置动态解析
+* [springboot实现多环境配置动态解析](./spring-boot/profile.md)
 
 ### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 
