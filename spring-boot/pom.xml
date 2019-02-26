@@ -14,6 +14,8 @@
 
     <modules>
         <module>spring-boot-hot</module>
+        <module>example-spring-boot-starter</module>
+        <module>example-spring-boot-starter-test</module>
     </modules>
     <dependencyManagement>
         <dependencies>
