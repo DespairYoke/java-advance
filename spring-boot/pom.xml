@@ -17,6 +17,8 @@
         <module>example-spring-boot-starter</module>
         <module>example-spring-boot-starter-test</module>
         <module>spring-boot-mybatis-mulidatasource</module>
+        <module>spring-boot-redis</module>
+        <module>spring-boot-swagger2</module>
     </modules>
     <dependencyManagement>
         <dependencies>

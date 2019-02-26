@@ -97,6 +97,8 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.example.zwd.s
 `注意`：value为自动配置类的classpath。
 
 创建完成，进行打包。
+
+[项目地址](./example-spring-boot-starter)
 #### 如何使用？
 
 - 引入依赖
@@ -139,3 +141,5 @@ public class SpringbootStarterTest {
     ####name@@@@
     
 表示starter可以正常使用。
+
+[项目地址](./example-spring-boot-starter-test)

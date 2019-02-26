@@ -58,3 +58,5 @@ spring.devtools.restart.additional-paths=resources/application.properties
 响应信息如下
 
     hello zwd
+    
+[项目地址](./spring-boot-hot)

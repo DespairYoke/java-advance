@@ -79,17 +79,15 @@
 
 ### 微框架(base on springboot2.1.3)
 
-* springboot与微服务之间的关系
-
 * [springboot热部署实战](./spring-boot/hot.md)
 
 * springboot核心组件[Starter](./spring-boot/starter.md)、Actuator、AutoConfiguration、CLi
 
 * [springboot集成MyBatis实现多数据源路由实战](./spring-boot/mulidatasource.md)
 
-* springboot集成Redis缓存实战
+* [springboot集成Redis缓存实战](./spring-boot/redis.md)
 
-* springboot集成Swagger2构建API管理及测试体系
+* [springboot集成Swagger2构建API管理及测试体系](./spring-boot/swagger.md)
 
 * springboot实现多环境配置动态解析
 
