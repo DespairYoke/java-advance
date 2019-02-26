@@ -1,6 +1,7 @@
 ## springboot配置mybatis多数据源
 
-    所谓多数据源，其实连接两dataSource，而每个dataSource生成的sqlFactory管理着不同的xml。只要使用时，根据业务选择自己所需的mapper即可。
+    所谓多数据源，其实连接两dataSource，而每个dataSource生成的sqlFactory管理着不同的xml。
+    只要使用时，根据业务选择自己所需的mapper即可。
 
 springboot1.x时，可用DataSourceBuilder进行生成数据源，2.x以后必须手动配置数据源。
 - 1.x配置
