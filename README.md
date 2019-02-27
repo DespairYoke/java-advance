@@ -24,9 +24,9 @@
 
 * Thread和Runable的比较
 
-* 四大线程池简介
+* [四大线程池简介](./thread/thread_pool.md)
 
-* ThreadLocal简介
+* [ThreadLocal简介](./thread/threadlocal.md)
 
 * 线程运行状态图简介
 
