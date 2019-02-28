@@ -28,9 +28,7 @@
 
 * [ThreadLocal简介](./thread/threadlocal.md)
 
-* 线程运行状态图简介
-
-* join,wait,sleep,yield使用
+* [线程运行状态图简介及join,wait,sleep,yield使用](./thread/thread-excute.md)
 
 * 锁的使用
 
