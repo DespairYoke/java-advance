@@ -1,6 +1,6 @@
 package com.hansn.entity;
 
-public class MyThread1 implements Runnable{
+public class MyRunnable implements Runnable{
     private int ticket = 10;
 
     @Override

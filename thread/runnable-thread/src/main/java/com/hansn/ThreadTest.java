@@ -4,10 +4,11 @@ import com.hansn.entity.MyThread;
 
 public class ThreadTest {
     public static void main(String[] args) {
-        MyThread myThread1 = new MyThread("A");
-        MyThread myThread2 = new MyThread("B");
+        MyThread myThread = new MyThread();
 
-        myThread1.start();
-        myThread2.start();
+        Thread t = new Thread(myThread,"窗口 A");
+        Thread t1 = new Thread(myThread, "窗口 B");
+        t.start();
+        t1.start();
     }
 }

@@ -22,7 +22,7 @@
 
 ### 线程与并发
 
-* Thread和Runable的比较
+* [Thread和Runnable的使用](./thread/thread_runnable.md)
 
 * [四大线程池简介](./thread/thread_pool.md)
 
@@ -30,7 +30,7 @@
 
 * [线程运行状态图简介及join,wait,sleep,yield使用](./thread/thread-excute.md)
 
-* 锁的使用
+* [锁的使用](./thread/thread-lock.md)
 
 * 深度理解synchronized、volatile、cas
 ### Spring5
