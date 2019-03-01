@@ -228,3 +228,65 @@ class Singleton{
 }
 ```
 这是一种懒汉的单例模式，使用时才创建对象，而且为了避免初始化操作的指令重排序，给instance加上了volatile。
+
+### CAS
+
+- 简介
+CAS: 全称Compare and swap，字面意思:”比较并交换“，一个 CAS 涉及到以下操作：
+
+ 我们假设内存中的原数据V，旧的预期值A，需要修改的新值B。
+       
+    1、比较 A 与 V 是否相等。（比较）
+    2、如果比较相等，将 B 写入 V。（交换）
+    3、返回操作是否成功。
+    
+当多个线程同时对某个资源进行CAS操作，只能有一个线程操作成功，但是并不会阻塞其他线程,其他线程只会收到操作失败的信号。
+可见 CAS 其实是一个乐观锁。
+
+- 代码示例   
+```java
+public class CasTest implements Runnable{
+    public static  int race = 0;
+
+    private static AtomicInteger atomicInteger= new AtomicInteger(0);
+    public static void increase() {
+        race++;
+        atomicInteger.getAndIncrement();
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+
+        CasTest casTest = new CasTest();
+        Thread threads1 = new Thread(casTest,"窗口A");
+        Thread threads2 = new Thread(casTest,"窗口B");
+        threads1.start();
+        threads2.start();
+        threads1.join();
+        threads2.join();
+        System.out.println("race: "+race);
+        System.out.println("atomic: "+atomicInteger);
+    }
+
+    @Override
+    public void run() {
+        for (int i=0;i<10;i++) {
+            try {
+                increase();
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
+
+}
+```
+运行结果
+```java
+race: 19
+atomic: 20
+```
+可见atomicInteger.getAndIncrement()是原子操作。
+
+
