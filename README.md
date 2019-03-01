@@ -32,7 +32,7 @@
 
 * [锁的使用](./thread/thread-lock.md)
 
-* 深度理解synchronized、volatile、cas
+* [深度理解synchronized、volatile、cas](./thread/thread_static.md)
 ### Spring5
 
 * [IOC容器设计原理及高级特性](./ioc.md)
