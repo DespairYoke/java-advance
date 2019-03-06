@@ -27,6 +27,8 @@
         <module>spring-cloud-sleuth-clientB</module>
         <module>spring-cloud-bus-server</module>
         <module>spring-cloud-bus-client</module>
+        <!--<module>spring-cloud-grpc-server</module>-->
+        <module>spring-cloud-lcn-producer</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

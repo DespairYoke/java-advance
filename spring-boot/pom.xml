@@ -20,6 +20,8 @@
         <module>spring-boot-redis</module>
         <module>spring-boot-swagger2</module>
         <module>spring-boot-profiles</module>
+        <module>spring-boot-grpc</module>
+        <module>spring-boot-swagger2Markup</module>
     </modules>
     <dependencyManagement>
         <dependencies>
