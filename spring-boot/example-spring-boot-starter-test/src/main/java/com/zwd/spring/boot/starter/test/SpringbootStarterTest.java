@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@Import(ExampleAutoConfigure.class)
+//@Import(ExampleAutoConfigure.class)
 public class SpringbootStarterTest {
 
     public static void main(String[] args) {

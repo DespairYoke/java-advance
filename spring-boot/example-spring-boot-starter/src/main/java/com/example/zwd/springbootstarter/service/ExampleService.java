@@ -28,7 +28,7 @@ public class ExampleService {
     }
 
     public String wrap(String word) {
-        return  word ;
+        return  prefix + word + suffix;
     }
 
 }

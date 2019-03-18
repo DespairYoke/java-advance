@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CORS 示例</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+</head>
+<body>
+<div id="message"></div>
+</body>
+
+<script>
+$(document).ready(function(){
+     // Ajax 跨域 GET 请求
+     $.get( "http://api.rest.org:8080/hello", function( data ) {
+                alert( data );
+                $( "#message" ).html( data );
+        });
+});
+</script>
+
+</html>

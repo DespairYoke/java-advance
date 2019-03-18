@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-servlet
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Mercy
+Implementation-Vendor-Id: com.imooc
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/dive-in-spring-boot/spring-servlet
+
