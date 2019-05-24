@@ -110,7 +110,7 @@
 
   <!-- The JSP page compiler and execution servlet, which is the mechanism  -->
   <!-- used by Tomcat to support JSP pages.  Traditionally, this servlet    -->
-  <!-- is mapped to the URL pattern "*.jsp".  This servlet supports the     -->
+  <!-- is mapped to the URL pattern "*.xx.xml".  This servlet supports the     -->
   <!-- following initialization parameters (default values are in square    -->
   <!-- brackets):                                                           -->
   <!--                                                                      -->
@@ -172,7 +172,7 @@
   <!--                       [false]                                        -->
   <!--                                                                      -->
   <!--   ieClassId           The class-id value to be sent to Internet      -->
-  <!--                       Explorer when using <jsp:plugin> tags.         -->
+  <!--                       Explorer when using <xx.xml:plugin> tags.         -->
   <!--                       [clsid:8AD9C840-044E-11D1-B3E9-00805F499D93]   -->
   <!--                                                                      -->
   <!--   javaEncoding        Java file encoding to use for generating java  -->

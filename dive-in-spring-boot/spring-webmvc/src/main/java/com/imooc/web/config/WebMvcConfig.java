@@ -25,15 +25,15 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
 //     <!--<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
 //        <!--<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
-//        <!--<property name="prefix" value="/WEB-INF/jsp/"/>-->
-//        <!--<property name="suffix" value=".jsp"/>-->
+//        <!--<property name="prefix" value="/WEB-INF/xx.xml/"/>-->
+//        <!--<property name="suffix" value=".xx.xml"/>-->
 //    <!--</bean>-->
     @Bean
     public ViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix("/WEB-INF/jsp/");
-        viewResolver.setSuffix(".jsp");
+        viewResolver.setPrefix("/WEB-INF/xx.xml/");
+        viewResolver.setSuffix(".xx.xml");
         return viewResolver;
     }
 
