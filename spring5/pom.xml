@@ -16,6 +16,7 @@
         <module>FactoryBeanAndBeanFactory</module>
         <module>spring-transaction</module>
         <module>making-myorm</module>
+        <module>my-spring-mvc</module>
     </modules>
 
 
