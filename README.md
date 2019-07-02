@@ -45,6 +45,8 @@
 
 * [基于注解编程的mvc](./spring5/spring-mvc.md)
 
+* [基于注解的事件驱动](./spring5/spring-event.md)
+
 * [基于SpringJDBC手写ORM框架](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
 * [SpringMVC九大组件](./spring5/springMVC-component.md)

@@ -18,6 +18,7 @@
         <module>making-myorm</module>
         <module>my-spring-mvc</module>
         <module>spring-mvc</module>
+        <module>spring-mvc-event</module>
 
     </modules>
 
