@@ -59,6 +59,7 @@
 
 ### SpringMvc
 
+[gitbook 地址](https://zwd.ccxst.cn/spring-mvc-book)
 * [SpringMvc从Servlet到DispatcherServlet（一）](./spring5/my-spring-mvc/2019-05-16-DispatcherServlet.md)
 
 * [SpringMvc初始化handlerMapping（二）](./spring5/my-spring-mvc/2019-05-17-handlerMapping.md)
@@ -80,6 +81,10 @@
 * [SpringMvc中的View（十）](./spring5/my-spring-mvc/2019-05-25-View.md)
 
 * [SpringMvc如何处理ModelAndView（十一）](./spring5/my-spring-mvc/2019-05-26-ModelAndView.md)
+
+* [SpringMvc事件发布处理流程(十二)](./spring5/my-spring-mvc/chapter12.md)
+
+* [手写spring ApplicationListener(十三)](./spring5/my-spring-mvc/chapter13.md)
 
 ### myBatis
 
