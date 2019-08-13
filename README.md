@@ -43,7 +43,9 @@
 
 * [Spring事务处理机制](https://github.com/DespairYoke/java-advance/blob/master/spring5/spring-transaction/README.md)
 
-* [基于注解编程的mvc](./spring5/spring-mvc.md)
+* [基于注解编程的mvc](./spring5/spring-mvc/README.md)
+
+* [基于注解的事件驱动](./spring5/spring-mvc-event/README.md)
 
 * [基于SpringJDBC手写ORM框架](https://github.com/DespairYoke/java-advance/blob/master/spring5/making-myorm/README.md)
 
@@ -57,6 +59,7 @@
 
 ### SpringMvc
 
+[gitbook 地址](https://zwd.ccxst.cn/spring-mvc-book)
 * [SpringMvc从Servlet到DispatcherServlet（一）](./spring5/my-spring-mvc/2019-05-16-DispatcherServlet.md)
 
 * [SpringMvc初始化handlerMapping（二）](./spring5/my-spring-mvc/2019-05-17-handlerMapping.md)
@@ -78,6 +81,10 @@
 * [SpringMvc中的View（十）](./spring5/my-spring-mvc/2019-05-25-View.md)
 
 * [SpringMvc如何处理ModelAndView（十一）](./spring5/my-spring-mvc/2019-05-26-ModelAndView.md)
+
+* [SpringMvc事件发布处理流程(十二)](./spring5/my-spring-mvc/chapter12.md)
+
+* [手写spring ApplicationListener(十三)](./spring5/my-spring-mvc/chapter13.md)
 
 ### myBatis
 
@@ -114,6 +121,8 @@
 * [springboot集成Swagger2构建API管理及测试体系](./spring-boot/swagger.md)
 
 * [springboot实现多环境配置动态解析](./spring-boot/profile.md)
+
+* [springboot注解驱动@Enable模块的使用](./spring-boot/spring-boot-enable/README.md)
 
 ### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 

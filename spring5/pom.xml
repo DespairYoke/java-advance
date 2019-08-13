@@ -19,6 +19,9 @@
         <module>my-spring-mvc</module>
         <module>spring-mvc</module>
         <module>cglib</module>
+        <module>spring-mvc-event</module>
+        <module>spring-applicationlistener</module>
+
 
     </modules>
 

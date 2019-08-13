@@ -23,6 +23,7 @@
         <module>spring-boot-grpc</module>
         <module>spring-boot-swagger2Markup</module>
         <module>spring-boot-controller-advice</module>
+        <module>spring-boot-enable</module>
     </modules>
     <dependencyManagement>
         <dependencies>
