@@ -43,6 +43,8 @@
 
 * [Spring事务处理机制](https://github.com/DespairYoke/java-advance/blob/master/spring5/spring-transaction/README.md)
 
+* [Spring CGLIB动态代理](https://github.com/DespairYoke/java-advance/blob/master/spring5/cglib/README.md)
+
 * [基于注解编程的mvc](./spring5/spring-mvc/README.md)
 
 * [基于注解的事件驱动](./spring5/spring-mvc-event/README.md)
