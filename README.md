@@ -126,6 +126,8 @@
 
 * [springboot注解驱动@Enable模块的使用](./spring-boot/spring-boot-enable/README.md)
 
+* [springboot2.0集成quartz(基于数据库)](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-quartz)
+
 ### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 
 * [Eureka注册中心](./spring-cloud/eureka.md)
