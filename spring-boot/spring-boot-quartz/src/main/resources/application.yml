@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initialSize: 2
+      minIdle: 2
+      maxActive: 30
+      #StatViewServlet:
+      #loginUsername: admin
+      #loginPassword: admin
+#  quartz:
+#    #相关属性配置
+#    properties:
+#      org:
+#        quartz:
+#          scheduler:
+#            instanceName: DefaultQuartzScheduler
+#            instanceId: AUTO
+#          jobStore:
+#            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+#            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+#            tablePrefix: QRTZ_
+#            isClustered: false
+#            clusterCheckinInterval: 10000
+#            useProperties: true
+#          threadPool:
+#            class: org.quartz.simpl.SimpleThreadPool
+#            threadCount: 10
+#            threadPriority: 5
+#            threadsInheritContextClassLoaderOfInitializingThread: true
+#          dataSource:
+#            default:
+#              URL: jdbc:mysql://120.55.12.223:3306/sign-online4.0?serverTimezone=GMT&characterEncoding=utf-8
+#              user: root
+#              password: 123456
+#              driver: com.mysql.jdbc.Driver
+#
+#    #数据库方式
+#    job-store-type: jdbc
+    #初始化表结构
+    #jdbc:
+#    initialize-schema: always
