@@ -25,6 +25,7 @@
         <module>spring-boot-controller-advice</module>
         <module>spring-boot-enable</module>
         <module>spring-boot-quartz</module>
+        <module>spring-boot-log</module>
     </modules>
     <dependencyManagement>
         <dependencies>
