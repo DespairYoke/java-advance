@@ -26,6 +26,8 @@
         <module>spring-boot-enable</module>
         <module>spring-boot-quartz</module>
         <module>spring-boot-log</module>
+        <module>spring-boot-hsql</module>
+        <module>spring-boot-mybatis-plus</module>
     </modules>
     <dependencyManagement>
         <dependencies>

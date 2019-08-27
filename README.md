@@ -43,6 +43,8 @@
 
 * [Spring事务处理机制](https://github.com/DespairYoke/java-advance/blob/master/spring5/spring-transaction/README.md)
 
+* [Spring JDK动态代理](https://github.com/DespairYoke/java-advance/blob/master/spring5/spring-jdk-proxy)
+
 * [Spring CGLIB动态代理](https://github.com/DespairYoke/java-advance/blob/master/spring5/cglib/README.md)
 
 * [基于注解编程的mvc](./spring5/spring-mvc/README.md)
@@ -129,6 +131,8 @@
 * [springboot2.0集成quartz(基于数据库)](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-quartz)
 
 * [springboot2.0日志探索](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-log)
+
+* [springboot2.0整合hsql](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-hsql)
 
 ### Spring Cloud(base on springboot2.1.3 and spring cloud Greenwich.RELEASE)
 

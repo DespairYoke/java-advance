@@ -21,6 +21,7 @@
         <module>cglib</module>
         <module>spring-mvc-event</module>
         <module>spring-applicationlistener</module>
+        <module>spring-jdk-proxy</module>
 
 
     </modules>
