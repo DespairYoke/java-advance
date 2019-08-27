@@ -63,7 +63,6 @@
 
 ### SpringMvc
 
-[gitbook 地址](https://zwd.ccxst.cn/spring-mvc-book)
 * [SpringMvc从Servlet到DispatcherServlet（一）](./spring5/my-spring-mvc/2019-05-16-DispatcherServlet.md)
 
 * [SpringMvc初始化handlerMapping（二）](./spring5/my-spring-mvc/2019-05-17-handlerMapping.md)
