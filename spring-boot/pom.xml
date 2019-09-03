@@ -28,6 +28,7 @@
         <module>spring-boot-log</module>
         <module>spring-boot-hsql</module>
         <module>spring-boot-mybatis-plus</module>
+        <module>spring-boot-aspectj</module>
     </modules>
     <dependencyManagement>
         <dependencies>

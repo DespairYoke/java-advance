@@ -37,7 +37,7 @@
 
 * [IOC容器设计原理及高级特性](./ioc.md)
 
-* [AOP设计原理](./spring5/aop/README.md)
+* [AOP设计原理](./spring5/spring-aop/README.md)
 
 * [FactoryBean与BeanFactory](https://github.com/DespairYoke/java-advance/blob/master/spring5/FactoryBeanAndBeanFactory/README.md)
 

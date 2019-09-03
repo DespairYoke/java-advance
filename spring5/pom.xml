@@ -12,7 +12,7 @@
     <artifactId>spring5</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>aop</module>
+        <module>spring-aop</module>
         <module>FactoryBeanAndBeanFactory</module>
         <module>spring-transaction</module>
         <module>making-myorm</module>

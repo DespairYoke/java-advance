@@ -13,13 +13,13 @@ public class Foo {
 当你执行java Foo 的时候，JVM会创建一个主线程main，这个主线程以上述的main()方法作为入口，开始执行你的代码。每一个线程在内存中都会维护一个属于自己的栈(Stack),记录着整个程序执行的过程。栈里的每一个元素称为栈帧(Stack Frame)，栈帧表示着某个方法调用，会记录方法调用的信息；实际上我们在代码中调用一个方法的时候，在内存中就对应着一个栈帧的入栈和出栈。
 
 在某个特定的时间点，一个Main线程内的栈会呈现如下图所示的情况：
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-8f2e485156fb1a29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0001.png)
 
 #### 2.  Java程序执行流 【了解AOP、连接点(Join Point)、切入点(point cut)   的概念 】
 
    如果从虚拟机线程栈的角度考虑Java程序执行的话，那么，你会发现，真个程序运行的过程就是方法调用的过程。我们按照方法执行的顺序，将方法调用排成一串，这样就构成了Java程序流。
 我们将上述的线程栈里的方法调用按照执行流排列，会有如下类似的图：
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-c68802ea6250eac2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0002.png)
 
 基于时间序列，我们可以将方法调用排成一条线。而每个方法调用则可以看成Java执行流中的一个节点。这个节点在AOP的术语中，被称为Join Point，即连接点。 一个Java程序的运行的过程，就是若干个连接点连接起来依次执行的过程。
 
@@ -30,13 +30,13 @@ public class Foo {
 `AOP(Aspect Oriented Programming)则是从另外一个角度来考虑整个程序的，AOP将每一个方法调用，即连接点作为编程的入口，针对方法调用进行编程。从执行的逻辑上来看，相当于在之前纵向的按照时间轴执行的程序横向切入。相当于将之前的程序横向切割成若干的面，即Aspect.每个面被称为切面。`
 所以，根据我的理解，AOP本质上是针对方法调用的编程思路。
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-e8c4b5cecdb9f97d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0003.png)
 
  既然AOP是针对切面进行的编程的，那么，你需要选择哪些切面(即 连接点Joint Point)作为你的编程对象呢？
 
    因为切面本质上是每一个方法调用，选择切面的过程实际上就是选择方法的过程。那么，被选择的切面(Aspect)在AOP术语里被称为切入点(Point Cut).  切入点实际上也是从所有的连接点(Join point)挑选自己感兴趣的连接点的过程。
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-a13d8ccc4bede894.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0004.png)
 既然AOP是针对方法调用(连接点)的编程， 现在又选取了你感兴趣的自己感兴趣的链接点---切入点（Point Cut）了，那么，AOP能对它做什么类型的编程呢？AOP能做什么呢？ 
 
 了解这个之前，我们先要知道一个非常重要的问题： 既然AOP是对方法调用进行的编程，那么，AOP如何捕获方法调用的呢？ 弄清楚这个问题，你不得不了解设计模式中的代理模式了。下面我们先来了解一下引入了代理模式的Java程序执行流是什么样子的。
@@ -45,27 +45,27 @@ public class Foo {
 我们假设在我们的Java代码里，都为实例对象通过代理模式创建了代理对象，访问这些实例对象必须要通过代理，那么，加入了proxy对象的Java程序执行流会变得稍微复杂起来。
 
 我们来看下加入了proxy对象后，Java程序执行流的示意图：
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-028cc6909d5c9f39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0005.png)
 
 加入了代理模式的Java程序执行流，使得所有的方法调用都经过了代理对象。对于Spring AOP框架而言，它负责控制着真个容器内部的代理对象。当我们调用了某一个实例对象的任何一个非final的public方法时，整个Spring框架都会知晓。
 
 此时的SpringAOP框架在某种程度上扮演着一个上帝的角色：它知道你在这个框架内所做的任何操作，你对每一个实例对象的非final的public方法调用都可以被框架察觉到！
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-b6515da4afd25b47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0006.png)
 
 #### 4. Spring AOP的工作原理
 
 前面已经介绍了AOP编程首先要选择它感兴趣的连接点----即切入点(Point cut)，那么，AOP能对切入点做什么样的编程呢？ 我们先将代理模式下的某个连接点细化，你会看到如下这个示意图所表示的过程：
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-5de973d01e2499e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0007.png)
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-7778f4449470ecf4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0008.png)
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-65ed81c4bdd953ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0009.png)
 
 #### 5、Spring AOP的核心---ProxyFactoryBean
 
@@ -82,10 +82,10 @@ public class Foo {
 根据这些信息，ProxyFactoryBean就能给我们提供我们想要的Proxy对象了！那么，ProxyFactoryBean帮我们做了什么？
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-9a1fe83c5aae2d9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0010.png)
 
  Spring 使用工厂Bean模式创建每一个Proxy，对应每一个不同的Class类型，在Spring中都会有一个相对应的ProxyFactoryBean. 以下是ProxyFactoryBean的类图。
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-d0e29120279ad17c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0011.png)
 
  如上所示，对于生成Proxy的工厂Bean而言，它要知道对其感兴趣的Advice信息，而这类的信息，被维护到Advised中。Advised可以根据特定的类名和方法名返回对应的AdviceChain，用以表示需要执行的Advice串。
 
@@ -581,12 +581,12 @@ JdkDynamicAopProxy 和CglibAopProxy只是创建代理方式的两种方式而已
 ```
 当我们调用 ticketService.sellTicket()时，Spring会把这个方法调用转换成一个MethodInvocation对象，然后结合上述的我们添加的各种Advice,组成一个ReflectiveMethodInvocation:
 
-![image.png](https://upload-images.jianshu.io/upload_images/15204062-d126608e309e313b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image/0012.png)
 
  各种Advice本质而言是一个方法调用拦截器，现在让我们看看各个Advice拦截器都干了什么？
 
-![](https://upload-images.jianshu.io/upload_images/15204062-1f41786ee9e602cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](../image/0013.png)
 
 *  拦截原理
-![](https://upload-images.jianshu.io/upload_images/15204062-a0ffff221e4a2a42.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](../image/0014.png)
 
