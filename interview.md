@@ -165,4 +165,4 @@ java8之后放弃了segment,采用`数组+链表+红黑树`的形式。
     分别是：string，list，hash，set，sorted set，每一种数据结构都有其特定的应用场景。
     从内部实现的角度来看是如何更好的实现这些数据类型。Redis底层数据结构有以下数据类型：
     简单动态字符串（SDS），链表，字典，跳跃表，整数集合，压缩列表，对象。接下来，
-[相关](https://www.despairyoke.com/2019/09/05/2019/2019-09-05-redis/)
+[相关更多](https://www.despairyoke.com/2019/09/05/2019/2019-09-05-redis/)
