@@ -176,6 +176,10 @@ java8之后放弃了segment,采用`数组+链表+红黑树`的形式。
     简单动态字符串（SDS），链表，字典，跳跃表，整数集合，压缩列表，对象。接下来，
 [相关更多](https://www.despairyoke.com/2019/09/05/2019/2019-09-05-redis/)
 
+[深入学习Redis持久化](http://work.haoxiaoyong.cn:3000/haoxiaoyong/java-advanced/src/master/2019-09-10/深入学习Redis持久化.md)
+
+[分布式redis复习](http://work.haoxiaoyong.cn:3000/haoxiaoyong/java-advanced/src/master/2019-09-13/分布式redis复习.md)
+
 #### 原码 反码 补码的区别和计算方式
     正数和0的原码、反码、补码 是它自己本身
     负数的原码是最高位为1表示负数
