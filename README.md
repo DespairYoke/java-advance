@@ -127,6 +127,8 @@
 
 * [springboot注解驱动@Enable模块的使用](./spring-boot/spring-boot-enable/README.md)
 
+* [springboot集成caffine缓存](./spring-boot/spring-boot-caffineCache/README.md)
+
 * [springboot2.0集成quartz(基于数据库)](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-quartz)
 
 * [springboot2.0日志探索](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-log)

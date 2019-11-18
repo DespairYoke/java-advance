@@ -1,0 +1,5 @@
+spring:
+  cache:
+    type: caffeine
+    caffeine:
+      spec: initialCapacity=10,maximumSize=5000,expireAfterWrite=100s
