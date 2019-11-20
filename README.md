@@ -34,7 +34,7 @@
 
 * [深度理解synchronized、volatile、cas](./thread/thread_static.md)
 
-* [手写ASQ](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-mybatis-jdbctemplate.md)
+* [手写ASQ](https://github.com/DespairYoke/java-advance/tree/master/spring-boot/spring-boot-jdbctemplate)
 
 ### Spring5
 
