@@ -30,6 +30,7 @@
         <module>spring-boot-mybatis-plus</module>
         <module>spring-boot-aspectj</module>
         <module>spring-boot-caffineCache</module>
+        <module>spring-boot-jdbctemplate</module>
     </modules>
     <dependencyManagement>
         <dependencies>
